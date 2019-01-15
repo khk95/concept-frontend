@@ -1,0 +1,9 @@
+.modal-open .modal{
+    overflow: hidden !important;
+}
+.modal.fade .modal-dialog{
+    transform: translate(0, 25%);
+}
+.modal.show .modal-dialog{
+    transform: translate(0, 0);
+}
